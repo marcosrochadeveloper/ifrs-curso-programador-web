@@ -1,2 +1,2 @@
-# ifrs-curso-programador-web
+# Curso Programador Web - Turma 2026A
 
