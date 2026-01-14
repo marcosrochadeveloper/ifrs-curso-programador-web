@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Vídeo</title>
+</head>
+
+<body>
+    <header>
+        <h1>Curso de HTML</h1>
+    </header>
+    <nav></nav>
+    <!--
+        <video> tem:
+        - autoplay: inicia o vídeo automaticamente ao carregar a página
+        - controls: exibe os controles de reprodução do vídeo
+        - height e width: altura e largura do vídeo
+        - loop: repete o vídeo quando termina
+        - muted: inicia o vídeo sem som
+        - poster: imagem exibida antes do vídeo começar
+        - preload: define como o vídeo deve ser carregado (auto, metadata, none)
+        - src: caminho do arquivo de vídeo
+    -->
+    <section>
+        <video src="video.mp4" width="400" controls></video>
+
+        <video width="390" id="clip" controls>
+            <source src="video.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            Seu navegador não suporta vídeos.
+        </video>
+    </section>
+    <footer></footer>
+</body>
+</html>

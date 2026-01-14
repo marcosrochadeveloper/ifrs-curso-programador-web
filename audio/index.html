@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Áudio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Curso de HTML</h1>
+    </header>
+    <nav></nav>
+    <!--
+        <audio> tem:
+        autoplay: inicia o áudio automaticamente ao carregar a página
+        controls: exibe os controles de áudio (play, pause, volume, etc)
+        loop: repete o áudio quando termina
+        muted: inicia o áudio sem som
+        preload: define como o áudio deve ser carregado (auto, metadata, none)
+        src: caminho do arquivo de áudio
+        width e height: definem o tamanho do player de áudio
+    -->
+    <section>
+        <audio src="music.mp3" controls></audio>
+
+        <audio controls>
+            <source src="music.ogg" type="audio/ogg">
+            <source src="music.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudios.
+        </audio>
+    </section>
+    <footer></footer>
+</body>
+</html>
