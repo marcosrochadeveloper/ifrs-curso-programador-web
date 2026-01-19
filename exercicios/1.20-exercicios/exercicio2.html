@@ -1,0 +1,70 @@
+<!--
+    Exercício 2: Atualmente, existem vários sites que exibem a temperatura atual e previsão do tempo. Construa uma página HTML que exiba a tabela abaixo, onde ao clicar no nome da cidade, o usuário seja encaminhado a um site com os dados da previsão do tempo para a determinada cidade.
+-->
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Previsão do Tempo</title>
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            th{
+                background-color: rgb(70, 70, 70);
+                color: white;
+            }
+            th, td {
+                padding: 5px 10px;
+                text-align: center;
+            }
+            tr:nth-child(even) {
+                text-align: left;
+                background-color: #939393;
+            }
+            tr:nth-child(odd) {
+                text-align: left;
+                background-color: #dadada;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header><h1>Previsão do Tempo</h1></header>
+        <nav></nav>
+        <section>
+            <table>
+                <thead>
+                    <th>Cidade</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.climatempo.com.br/previsao-do-tempo/cidade/127/bento-goncalves">Bento Gonçalves</a></td>
+                        <td>6°C</td>
+                        <td>12°C</td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="https://www.climatempo.com.br/previsao-do-tempo/cidade/218/cuiaba-mt">Cuiabá</a></td>
+                        <td>28°C</td>
+                        <td>32°C</td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="https://www.climatempo.com.br/previsao-do-tempo/cidade/8/maceio-al">Maceió</a></td>
+                        <td>24°C</td>
+                        <td>35°C</td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="https://www.climatempo.com.br/previsao-do-tempo/cidade/84/vitoria-es">Vitória</a></td>
+                        <td>18°C</td>
+                        <td>25°C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
